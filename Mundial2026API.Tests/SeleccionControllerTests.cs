@@ -34,7 +34,7 @@ public class SeleccionControllerTests
     {
         // Act
         var seleccion =
-            await _client.GetFromJsonAsync<Seleccion>("/api/selecciones/2");
+            await _client.GetFromJsonAsync<Seleccion>("/api/selecciones/1");
 
         // Assert
         seleccion.Should().NotBeNull();
